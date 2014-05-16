@@ -1,0 +1,8 @@
+package com.example.client.listener;
+
+
+
+public interface IProgressListener {
+	public void progress(int pid,int progress);
+	public void onState(int state,Object obj);
+}
